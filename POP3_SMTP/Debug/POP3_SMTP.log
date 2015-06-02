@@ -1,0 +1,114 @@
+﻿Сборка начата 02.06.2015 15:34:03.
+     1>Проект "C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\POP3_SMTP\POP3_SMTP.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\Debug\EAGetMail.dll" /FU"C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\Debug\EASendMail.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Messaging.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AddMailBox.cpp MainWindow.cpp main.cpp
+         AddMailBox.cpp
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(137): warning C4091: static : пропускается слева от "LogWriter", когда ни одна переменная не объявлена
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(65): warning C4101: dwWriterId: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesWritten: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(103): warning C4101: lpPathBuffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(101): warning C4101: szTempName: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(99): warning C4101: hTempFile: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(102): warning C4101: buffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesRead: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(264): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(361): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(382): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(394): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(396): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(422): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(434): warning C4800: long: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(570): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(878): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(890): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(968): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(980): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1039): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1048): warning C4018: <: несоответствие типов со знаком и без знака
+         MainWindow.cpp
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(137): warning C4091: static : пропускается слева от "LogWriter", когда ни одна переменная не объявлена
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(65): warning C4101: dwWriterId: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesWritten: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(103): warning C4101: lpPathBuffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(101): warning C4101: szTempName: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(99): warning C4101: hTempFile: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(102): warning C4101: buffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesRead: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(264): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(361): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(382): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(394): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(396): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(422): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(434): warning C4800: long: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(570): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(878): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(890): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(968): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(980): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1039): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1048): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\NewMail.h(43): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\ViewMessage.h(268): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\ViewMessage.h(265): warning C4101: l: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(455): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(546): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(587): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(603): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(761): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1108): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1128): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1143): warning C4018: <: несоответствие типов со знаком и без знака
+         main.cpp
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(137): warning C4091: static : пропускается слева от "LogWriter", когда ни одна переменная не объявлена
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(65): warning C4101: dwWriterId: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesWritten: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(103): warning C4101: lpPathBuffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(101): warning C4101: szTempName: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(99): warning C4101: hTempFile: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(102): warning C4101: buffer: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(100): warning C4101: dwBytesRead: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(264): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(361): warning C4101: a: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(382): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(394): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(396): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(422): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(434): warning C4800: long: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(570): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(878): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(890): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(968): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(980): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1039): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\classes.h(1048): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\NewMail.h(43): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\ViewMessage.h(268): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\ViewMessage.h(265): warning C4101: l: неиспользованная локальная переменная
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(455): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(546): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(587): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(603): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(761): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1108): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1128): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\дмитрий\documents\visual studio 2013\projects\pop3_smtp\pop3_smtp\MainWindow.h(1143): warning C4018: <: несоответствие типов со знаком и без знака
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\Debug\POP3_SMTP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\POP3_SMTP.AddMailBox.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.DownloadForm.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.Loading.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.MainWindow.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.MBList.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.NewMail.resources /ASSEMBLYRESOURCE:Debug\POP3_SMTP.ViewMessage.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\Debug\POP3_SMTP.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\AddMailBox.obj
+         Debug\DownloadForm.obj
+         Debug\Loading.obj
+         Debug\main.obj
+         Debug\MainWindow.obj
+         Debug\MBList.obj
+         Debug\MyForm.obj
+         Debug\NewMail.obj
+         Debug\ViewMessage.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Lab5_Library.lib
+         POP3_SMTP.vcxproj -> C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\Debug\POP3_SMTP.exe
+     1>Сборка проекта "C:\Users\Дмитрий\documents\visual studio 2013\Projects\POP3_SMTP\POP3_SMTP\POP3_SMTP.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:15.41

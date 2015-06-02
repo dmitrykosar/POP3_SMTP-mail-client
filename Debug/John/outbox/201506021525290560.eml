@@ -1,0 +1,34 @@
+Message-ID: <9bbfb876a3a1368293913cde00138f15@mail.ru>
+From: <john.curt@mail.ru>
+To: <dmitry_kosar@mail.ru>
+Subject: TEST EMAIL
+Date: Tue, 02 Jun 2015 15:25:29 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="79a565d891c7db8b5fa332a40004ba80"
+
+This is a multi-part message in MIME format.
+
+--79a565d891c7db8b5fa332a40004ba80
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+TEST EMAIL=2E
+//////////////////
+//////////////////
+//////////////////
+TEST EMAIL=2E
+
+--79a565d891c7db8b5fa332a40004ba80
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+TEST EMAIL=2E
+//////////////////
+//////////////////
+//////////////////
+TEST EMAIL=2E
+
+--79a565d891c7db8b5fa332a40004ba80--

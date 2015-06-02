@@ -1,0 +1,102 @@
+  POP3_SMTP.AddMailBox.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.DownloadForm.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.Loading.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.MainWindow.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.MBList.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.NewMail.resources - Embedded, ContainedInManifestFile, 
+  POP3_SMTP.ViewMessage.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly POP3_SMTP, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly EAGetMail, Version=4.5.0.7, Culture=neutral, PublicKeyToken=e10a0812eb29cf94: 
+	hash=None, flags=None
+Assembly EASendMail, Version=7.2.0.1, Culture=neutral, PublicKeyToken=88adb80ecd66540b: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct LogWriter: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct logwr: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct attachment: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct eMail: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    <MarshalCopy>(eMail*, eMail*): PrivateScope, Public, Static, SpecialName
+    <MarshalDestroy>(eMail*): PrivateScope, Public, Static, SpecialName
+Struct MailBox: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    <MarshalCopy>(MailBox*, MailBox*): PrivateScope, Public, Static, SpecialName
+    <MarshalDestroy>(MailBox*): PrivateScope, Public, Static, SpecialName
+Struct Client: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Ftype: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 MailboxNum : Public
+    Int32 type : Public
+Struct SearchResult: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class POP3_SMTP.AddMailBox: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Client*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POP3_SMTP.DownloadForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+Class POP3_SMTP.Loading: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POP3_SMTP.NewMail: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(eMail*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Client*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Client* client : Public
+Class POP3_SMTP.ViewMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Client*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    eMail* temp : Public
+    Client* client : Public
+  Methods:
+    View(eMail*): PrivateScope, Public, HideBySig
+Class POP3_SMTP.MainWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 selectedItem : Public
+    Int32 selectedMailBox : Public
+    Int32 selectedFolder : Public
+Class POP3_SMTP.MainWindow+Callback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class POP3_SMTP.MBList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POP3_SMTP.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

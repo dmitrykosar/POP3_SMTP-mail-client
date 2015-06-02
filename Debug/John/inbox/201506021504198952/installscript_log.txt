@@ -1,0 +1,2 @@
+01/24/15 23:08:00 [AppID 570] CreateProcess failed:  "D:\Games\Steam\steamapps\common\dota 2 beta\DirectX\DXSETUP.exe" /silent GLE 2
+01/24/15 23:10:58 [AppID 570] CreateProcess failed:  "D:\Games\Steam\steamapps\common\dota 2 beta\DirectX\DXSETUP.exe" /silent GLE 2

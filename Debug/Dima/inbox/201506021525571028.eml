@@ -1,0 +1,27 @@
+Delivered-To: dmitry_kosar@mail.ru
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=mail.ru; s=mail2;
+	h=Content-Transfer-Encoding:Content-Type:MIME-Version:Date:Subject:To:From:Message-ID; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+	b=E3f+4DCUEvYlX5MWfAzsty1XOamz7JbxIpvo3Cvv5GOzPN3j7u6YCb6/FNlzSjGRMtJv336vvCEL/OP68mTJt8aAyPdCSNQChNK1kRmvg/FKvHvoHQ8g9e7tYg+7Qo+DUplnKILAnJMkjNi4sFl3uzVtSt9Q5/F2EetHsx7strY=;
+Return-path: <john.curt@mail.ru>
+Received: from [195.50.30.212] (port=39818 helo=dima.local)
+	by smtp15.mail.ru with esmtpa (envelope-from <john.curt@mail.ru>)
+	id 1YzlG4-00039p-Mi
+	for dmitry_kosar@mail.ru; Tue, 02 Jun 2015 15:25:28 +0300
+Message-ID: <e73ca68e5498084220c3cb360019f140@mail.ru>
+From: <john.curt@mail.ru>
+To: <dmitry_kosar@mail.ru>
+Subject: TEST EMAIL
+Date: Tue, 2 Jun 2015 15:25:28 +0300
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam: Not detected
+X-Mras: Ok
+
+TEST EMAIL=2E
+//////////////////
+//////////////////
+//////////////////
+TEST EMAIL.
+
